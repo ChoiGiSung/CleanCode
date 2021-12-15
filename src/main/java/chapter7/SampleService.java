@@ -15,4 +15,14 @@ public class SampleService {
             e.printStackTrace();
         }
     }
+
+    public void localPort(){
+        LocalPort localPort = new LocalPort();
+
+        try {
+            localPort.open();
+        }catch (CustomException e){
+
+        }
+    }
 }
